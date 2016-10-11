@@ -14,10 +14,12 @@ export class CourseCardsComponent implements OnInit {
   }
 
   ngOnInit() {
+
   }
 
 
     navigate(path) {
         this.router.navigate([{outlets: {primary: path, sidemenu:path}}], {relativeTo: this.route});
     }
+
 }
