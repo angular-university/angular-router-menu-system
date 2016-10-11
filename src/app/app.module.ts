@@ -9,13 +9,17 @@ import {routerConfig} from "../router.config";
 import {RouterModule} from "@angular/router";
 import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './courses/courses.component';
+import { CourseCardsComponent } from './course-cards/course-cards.component';
+import { CategoriesMenuComponent } from './categories-menu/categories-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
-    CoursesComponent
+    CoursesComponent,
+    CourseCardsComponent,
+    CategoriesMenuComponent
   ],
   imports: [
     BrowserModule,
