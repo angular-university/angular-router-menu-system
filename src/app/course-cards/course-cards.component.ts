@@ -6,17 +6,11 @@ import {Router, ActivatedRoute} from "@angular/router";
   templateUrl: './course-cards.component.html',
   styleUrls: ['./course-cards.component.css']
 })
-export class CourseCardsComponent implements OnInit {
+export class CourseCardsComponent {
 
   constructor(private router: Router, private route: ActivatedRoute) {
 
-
   }
-
-  ngOnInit() {
-
-  }
-
 
     navigate(path) {
 
