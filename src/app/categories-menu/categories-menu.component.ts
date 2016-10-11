@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './categories-menu.component.html',
   styleUrls: ['./categories-menu.component.css']
 })
-export class CategoriesMenuComponent implements OnInit {
+export class SideMenuComponent implements OnInit {
 
   constructor() { }
 

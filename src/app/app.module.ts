@@ -10,7 +10,7 @@ import {RouterModule} from "@angular/router";
 import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseCardsComponent } from './course-cards/course-cards.component';
-import { CategoriesMenuComponent } from './categories-menu/categories-menu.component';
+import { SideMenuComponent } from './categories-menu/categories-menu.component';
 import { CoursesCategoryComponent } from './course-category/course-category.component';
 
 @NgModule({
@@ -20,7 +20,7 @@ import { CoursesCategoryComponent } from './course-category/course-category.comp
     AboutComponent,
     CoursesComponent,
     CourseCardsComponent,
-    CategoriesMenuComponent,
+    SideMenuComponent,
     CoursesCategoryComponent
   ],
   imports: [

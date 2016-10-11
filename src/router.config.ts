@@ -5,7 +5,7 @@ import {HomeComponent} from "./app/home/home.component";
 import {AboutComponent} from "./app/about/about.component";
 import {CoursesComponent} from "./app/courses/courses.component";
 import {CourseCardsComponent} from "./app/course-cards/course-cards.component";
-import {CategoriesMenuComponent} from "./app/categories-menu/categories-menu.component";
+import {SideMenuComponent} from "./app/categories-menu/categories-menu.component";
 import {CoursesCategoryComponent} from "./app/course-category/course-category.component";
 
 
@@ -33,7 +33,7 @@ export const routerConfig: Routes = [
             {
                 path: '',
                 outlet: 'side-menu',
-                component: CategoriesMenuComponent
+                component: SideMenuComponent
             }
         ]
     },

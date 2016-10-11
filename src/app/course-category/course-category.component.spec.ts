@@ -1,11 +1,11 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
-import { SideMenuComponent } from './categories-menu.component';
+import { CoursesCategoryComponent } from './course-category.component';
 
-describe('Component: CategoriesMenu', () => {
+describe('Component: CourseCategory', () => {
   it('should create an instance', () => {
-    let component = new SideMenuComponent();
+    let component = new CoursesCategoryComponent();
     expect(component).toBeTruthy();
   });
 });
