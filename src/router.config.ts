@@ -32,11 +32,12 @@ export const routerConfig: Routes = [
             },
             {
                 path: '',
-                outlet: 'side-menu',
+                outlet: 'sidemenu',
                 component: SideMenuComponent
             },
             {
                 path: ':id',
+                outlet: 'sidemenu',
                 component: SideMenuComponent
             }
         ]
