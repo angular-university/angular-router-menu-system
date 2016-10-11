@@ -4,6 +4,7 @@ import {Routes} from "@angular/router";
 import {HomeComponent} from "./app/home/home.component";
 import {AboutComponent} from "./app/about/about.component";
 import {CoursesComponent} from "./app/courses/courses.component";
+import {CourseCardsComponent} from "./app/course-cards/course-cards.component";
 
 
 export const routerConfig: Routes = [
@@ -17,7 +18,13 @@ export const routerConfig: Routes = [
     },
     {
         path: 'courses',
-        component: CoursesComponent
+        component: CoursesComponent,
+        children: [
+            {
+                path: '',
+                component: CourseCardsComponent
+            }
+        ]
     },
     {
         path: '',
