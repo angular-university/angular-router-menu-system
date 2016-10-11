@@ -11,6 +11,7 @@ import { AboutComponent } from './about/about.component';
 import { CoursesComponent } from './courses/courses.component';
 import { CourseCardsComponent } from './course-cards/course-cards.component';
 import { CategoriesMenuComponent } from './categories-menu/categories-menu.component';
+import { CoursesCategoryComponent } from './course-category/course-category.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CategoriesMenuComponent } from './categories-menu/categories-menu.compo
     AboutComponent,
     CoursesComponent,
     CourseCardsComponent,
-    CategoriesMenuComponent
+    CategoriesMenuComponent,
+    CoursesCategoryComponent
   ],
   imports: [
     BrowserModule,

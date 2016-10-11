@@ -6,6 +6,7 @@ import {AboutComponent} from "./app/about/about.component";
 import {CoursesComponent} from "./app/courses/courses.component";
 import {CourseCardsComponent} from "./app/course-cards/course-cards.component";
 import {CategoriesMenuComponent} from "./app/categories-menu/categories-menu.component";
+import {CoursesCategoryComponent} from "./app/course-category/course-category.component";
 
 
 export const routerConfig: Routes = [
@@ -24,6 +25,10 @@ export const routerConfig: Routes = [
             {
                 path: '',
                 component: CourseCardsComponent
+            },
+            {
+              path: ':id',
+              component: CoursesCategoryComponent
             },
             {
                 path: '',
