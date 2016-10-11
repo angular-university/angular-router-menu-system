@@ -34,6 +34,10 @@ export const routerConfig: Routes = [
                 path: '',
                 outlet: 'side-menu',
                 component: SideMenuComponent
+            },
+            {
+                path: ':id',
+                component: SideMenuComponent
             }
         ]
     },
